@@ -1,4 +1,4 @@
-# Typed Glue  [![Build Status](https://travis-ci.org/jnath/typed-glue.svg?branch=master)](https://travis-ci.org/jnath/typed-glue)
+# Typed Glue  [![Build Status](https://travis-ci.org/typed-typings/npm-glue.svg?branch=master)](https://travis-ci.org/typed-typings/npm-glue)
 
 
 The type definition for [`glue`](git://github.com/hapijs/glue.git)
