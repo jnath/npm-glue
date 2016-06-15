@@ -20,9 +20,6 @@ interface Manifest {
     registrations?: Array<Plugin>;
 }
 
-declare namespace glue {
-    export function compose(manifest: Manifest, options?: Options, callback?: (err?: any, server?: Server) => void);
-}
+export function compose(manifest: Manifest, options?: Options, callback?: (err?: any, server?: Server) => void);
 
-export = glue;
 
