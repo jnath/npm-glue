@@ -1,7 +1,7 @@
 import { Server, IServerOptions, IServerConnectionOptions } from 'hapi';
 
 interface Options {
-    relativeTo?: string;
+    relativeTo: string;
     preConnections?: (Server:Server, next:(err:any)=>void ) => void;
     preRegister?: (Server:Server, next:(err:any)=>void ) => void;
 }
@@ -20,6 +20,6 @@ interface Manifest {
     registrations?: Array<Plugin>;
 }
 
-export function compose(manifest: Manifest, options?: Options, callback?: (err?: any, server?: Server) => void);
+export function compose(manifest: Manifest, options?: Options, callback?: (err?: any, server?: Server) => void):void;
 
 
